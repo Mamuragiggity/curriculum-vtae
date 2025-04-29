@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>About me</title>
+    <link rel="icon" type="image" href="images/znachok.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <div style=
+    "font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium; ">
+    <style>
+        html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    min-height: 300px;
+}
+
+footer {
+    flex-shrink: 0; 
+}
+    nav {
+            display: flex;
+            gap: 30px;
+            background: #030303;
+            padding: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .nav-button {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #9c9c9c;
+}
+    footer { 
+        display: flex;
+        gap: 50px;
+        background: #000000;
+        padding: 5px;
+
+    }
+    footer p {
+        text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+    }
+    footer a {
+        text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+    }
+    .card {
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgb(220, 220, 220);
+}
+
+.card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /
+}
+
+.card-content {
+    padding: 15px;
+}
+.cards-container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+}
+</style>
+    </head>
+  <body>
+    <header>
+        <nav> 
+        <a href="Mainpage.html"class="nav-button">Главная </a>
+        <a href="Kartochki.html"class="nav-button">Каталог карточек</a>
+        <a href="bigkartochka.html"class="nav-button">Детальное описание карточки</a>
+        <a href="contacts.html"class="nav-button">Мои контакты</a>
+        <a href="resume.html"class="nav-button">Места работы</a>
+</nav>
+<h1 style="text-align: center">
+        Привет! Показываю навыки, попутно рассказываю о себе, думаю интересней формата я не найду :) </h1>
+    </header>
+    <main>
+        <div class="cards-container">
+        <div class="card">
+            <img src="images/praktika.jpg" alt="praktika" class="card-image">
+            <div class="card-content">
+                <h3>Мы на практике</h3>
+                <p>Первый раз делали что то интересное</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/firstjob.jpg" alt="firstjob" class="card-image">
+            <div class="card-content">
+                <h3>Первая работа</h3>
+                <p>Уехал из дома за 2000км чтобы заработать первые деньги</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/yvolen.jpg" alt="yvolen" class="card-image">
+            <div class="card-content">
+                <h3>Уволился</h3>
+                <p>Хватило на месяц, жонглировали сменами и штрафами</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/decka.jpg" alt="decka" class="card-image">
+            <div class="card-content">
+                <h3>купил steam deck</h3>
+                <p>порадовал себя,купив стим дек</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/badabum.jpg" alt="badabum" class="card-image">
+            <div class="card-content">
+                <h3>Приехал, называется..</h3>
+                <p>пока спал, в газель, припаркованную рядом с домом, прилетел небольшой подарок</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/batya.jpg" alt="batya" class="card-image">
+            <div class="card-content">
+                <h3>Права:получены
+                (не куплены)</h3>
+                <p>Пересадил батю на пасажирское</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/serbski.jpg" alt="serbski" class="card-image">
+            <div class="card-content">
+                <h3>Pešadijo, pešadijo</h3>
+                <p>Хотели отправить в Сербию на доп.обучение(с обязательной отработкой 3 года на спонсора) </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/efe.jpg" alt="efe" class="card-image">
+            <div class="card-content">
+                <h3>Поехал на новый год в башкирию</h3>
+                <p>Начал уфимское приключение</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/roadmap.jpg" alt="roadmap" class="card-image">
+            <div class="card-content">
+                <h3>Поездка!</h3>
+                <p>Еду до Стерлитамака</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/priehal.jpg" alt="priehal" class="card-image">
+            <div class="card-content">
+                <h3>Добрался!</h3>
+                <p>(бате не слова, убьёт на месте)</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/relax.jpg" alt="relax" class="card-image">
+            <div class="card-content">
+                <h3>Культурно отдыхаю</h3>
+                <p>Баня+телеканал спас</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/goodbye.jpg" alt="goodbye" class="card-image">
+            <div class="card-content">
+                <h3>улетаю из Уфы</h3>
+                <p>первый раз в жизни один на самолёте</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/pureshka.jpg" alt="pureshka" class="card-image">
+            <div class="card-content">
+                <h3>устроился на работу</h3>
+                <p>теперь уже нормально, в городе</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/learning.jpg" alt="learning" class="card-image">
+            <div class="card-content">
+                <h3>Учусь</h3>
+                <p>Сижу пишу сейчас это всё дело</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+<p style=
+"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: small;">
+    BORODIN.autobiography</p>
+<p style=
+"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: smaller;">2025</p>
+<a href="contacts.html"class=nav-button >Связаться со мной</a>
+</footer>
+  </body>
+</html>
