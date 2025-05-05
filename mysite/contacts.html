@@ -7,19 +7,18 @@
     <link rel="icon" type="image" href="images/znachok.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Forma.css" />
   </head>
   <body>
     <header>
         <nav> 
         <a href="index.html"class="nav-button">Главная </a>
         <a href="Kartochki.html"class="nav-button">Каталог карточек</a>
-        <a href="bigkartochka.html"class="nav-button">Детальное описание карточки</a>
+        <a href="bigkartochka.html"class="nav-button">Краткие моменты</a>
         <a href="contacts.html"class="nav-button">Мои контакты</a>
         <a href="resume.html"class="nav-button">Места работы</a>
         </nav>
-<h1 style="text-align: center">
-        Привет! Показываю навыки, попутно рассказываю о себе, думаю интересней формата я не найду :) </h1>
-    </header>
+</header>
     <main>
         <img src="images/contact.jpg" alt="zvoni">
 <h1>
@@ -38,15 +37,62 @@
         Ссылка 
     </a>
 </h1>
+<div class="container__form">
+    <form>
+      <div class="row__form">
+        <div class="card__form">
+          <label class="card-title__form">Как к вам обращаться?</label>
+          <input
+            type="text"
+            class="card-content__form"
+            value="Александр Александрович"
+          />
+        </div>
+
+        <div class="card__form">
+          <label class="card-title__form"
+            >Где предпочитаете вести деловые беседы?</label
+          >
+          <select class="card-content__form">
+            <option>Телефон</option>
+            <option>Email</option>
+            <option>WhatsApp</option>
+            <option>Telegram</option>
+          </select>
+        </div>
+      </div>
+      <div class="row__form">
+        <div class="card__form">
+          <label class="card-title__form"
+            >Оставьте свои контактные данные*
+          </label>
+          <input
+            type="tel"
+            class="card-content__form"
+            value="+70999999-99-99"
+          />
+        </div>
+        <div class="card__form">
+          <label class="card-title__form">Расскажите о задаче</label>
+          <textarea class="card-content__form">Необходимая разработка</textarea>
+        </div>
+      </div>
+      <div class="button-container__form">
+        <button type="submit" class="submit-btn__form">отправить</button>
+      </div>
+
+      <div class="checkbox-container__form">
+        <input type="checkbox"
+          >Я согласен на обработку персональных данных и согласен с
+          политикой конфиденциальности
+        </label>
+      </div>
+    </form>
+  </div>
 </main>
 <footer>
-<p style=
-"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: small;">
-    BORODIN.autobiography</p>
-<p style=
-"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: smaller;">2025</p>
+<p>BORODIN.autobiography</p>
+ <p>2025</p>
 <a href="contacts.html"class=nav-button >Связаться со мной</a>
 </footer>
   </body>
