@@ -1,0 +1,99 @@
+.container__form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #205269;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+
+.row__form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card__form {
+  flex: 1;
+}
+
+.card-title__form {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.card-content__form {
+  font-size: 16px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+textarea.card-content__form {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.button-container__form {
+  display: flex;
+  justify-content: center; /* Выравнивание по центру */
+  margin-top: 15px;
+}
+
+.submit-btn__form {
+  padding: 10px 25px;
+  background-color: #60d446;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  font-size: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #60d446;
+}
+
+.checkbox-container__form {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.checkbox-container__form input {
+  margin-right: 100px;
+}
+@media (max-width: 300px) {
+  .container__form {
+    max-width: 100%;
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .row__form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card-content__form {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .submit-btn__form {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .checkbox-container__form {
+    font-size: 11px;
+  }
+}
